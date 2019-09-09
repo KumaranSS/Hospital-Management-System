@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>i-care</title>
+	<link rel="stylesheet" type="text/css" href="hos.css">
+	<script>
+		function ab()
+		{
+			var a=/^[a-z A-Z 0-9]{5,8}$/;
+			var b=/^[a-z A-Z]+$/;
+			if(n.b.value=="")
+			{
+				alert("You must fill this field");
+				return false;
+			}
+			if(n.p.value=="")
+			{
+				alert("you must fill this field");
+				return false;
+			}
+			if(n.a.value=="")
+			{
+				alert("you must fill this field");
+				return false;
+			}
+	//		if(n.c.value=="")
+		//	{
+	//			alert("you must fill this field");
+	//			return false;
+	//		}
+			if(n.d.value=="")
+			{
+				alert("you must fill this field");
+				return false;
+			}
+			
+			if((n.r[0].checked==false)&&(n.r[1].checked==false))
+			{
+				alert("enter field");
+				return false;
+			}
+			if(!b.test(n.b.value))
+			{
+				alert("enter proper name");
+				return false;
+			}
+			if(!a.test(n.p.value))
+			{
+				alert("enter proper password of 5-8");
+				return false;
+			}
+			return true;
+		}
+	
+	</script>
+</head>
+<body>
+	<h1><center>HOSPITAL MANAGEMENT SYSTEM</center></h1>
+	<section>
+		<div class="row">
+			<center>
+			<li><a href="#aboutme"> About</a></li>
+			<li><a href="#online"> Online applications</a></li>
+			<li><a href="#services"> Services </a></li>
+			<li><a href="#expertise"> Our Expertise </a></li>
+			<li><a href="#howwework"> Our Process </a></li>
+			<li><a href="#contact"> Contact me</a></li>	
+			</center>
+		</div>	
+	</section>
+	<br>
+	<br>
+	<br>
+	<section>
+		<a id="aboutme">
+		<div class ="cm">
+		<img src="hosp.jpg" id=a width="200" height="150">
+		<br>	<p>		The IT system has revolutionised the field of medicine. In this fast-paced world of medicine, it is a daunting task to manage a multi-speciality hospital. A hospital management system (HMS) is a computer or web based system that facilitates managing the functioning of the hospital or any medical set up1. This system or software will help in making the whole functioning paperless. It integrates all the information regarding patients, doctors, staff, hospital administrative details etc. into one software4. It has sections for various professionals that make up a hospital.</p>
+		</div>	
+		</a>
+	</section>
+<br>
+<br>
+<br>
+<p></p>
+<p></p>
+	<section>
+		<a id="online">
+			<div class="row">
+				<center>
+				<form name="n" action="Server link" method="get">
+				<p>Enter name:<input type="text" name="b" ></p>
+				<p>  Enter password:<input type="password" name="p"></p>
+				<p>	Email:<input type="Email" name="a"></p>
+				<p> Scanned receipt:<input type="File" name="c"></p>
+				<p>Gender:
+					Male<input type="radio" name="r">
+					Female<input type="radio" name="r">
+				</p>
+				<p> DOB:<input type="date" name=""></p>
+				<p>Types of fever:
+					Malaria<input type="checkbox" name="d">
+					Typhoid<input type="checkbox" name="d">
+					Dengue<input type="checkbox" name="d">
+				</p>	
+				<p><button type="submit"  onclick="return ab()">Submit</button></p>
+				</form>
+				</center>
+			</div>
+		</a>
+	</section>
+
+	<section>
+		<div class="cm">
+		<a id="services">
+			<h1>	Custom Software Development Services </h1>
+			<p>We are software development company with the focus on making hardware and software work together in a synergy which connects and efficiently streamlines your business processes and fuels greater productivity.</p>
+			
+			 <h3>Custom Applications Application</h3>
+					<p>We are custom software development company who designs powerful tools for automation, collaboration, and unification. Send us your requirements and we'll actualize them in a sophisticated solution.</p>
+			
+			 <h3>Product Development</h3>
+					<p>Existek keenly knows how to build a solution from scratch. Our product development service obliterates high costs and resource intensity of the new product development and lets you keep a laser focus on your business.</p>
+			 <h3>Enterprise Application Integration</h3>
+					<p>Consolidations often cause disruptions in otherwise solid ecosystems. Existek helps enterprises overcome integrations challenges with microservices, APIs, data processing, workspaces, and portals. We convert your business application into your dependable ally.</p>
+		
+		</a>
+		</div>
+	</section>
+
+	<section>
+	<div class="cm">
+		<a id="expertise">
+			<table border=1>
+				<tr>
+					<th>Websites of management</th>
+					<th>Business Automation</th>
+				</tr>
+				<tr>
+					<td><h1>	OUR SERVICES </h1>
+We are the team of software engineering and business professionals who leverage the vast expertise that we accumulated in various industries to help our customers solve the most complex challenges you can meet on your track to the creating the next innovative web app or business software.
+
+<p><h3>WEB APPLICATIONS 
+DEVELOPMENT</h3>
+Existek provides the web application development services for the fast-growing companies looking to create and improve the web-based software products and solutions with innovative features and beautiful appearance.</p>
+
+<p><h3>SAAS DEVELOPMENT 
+SERVICES</h3>
+We create the powerful applications fully ready to function in the SaaS distribution model. Our core value is to deliver excellent web applications that run and look consistent across all platforms and browsers.</p>
+
+<p><h3>FRONTEND 
+WEB DEVELOPMENT</h3>
+We know that the first impression is the key to the high user retention rate. At Existek we create sophisticated web interfaces with the clean look to make sure that your customers will enjoy using your web application.</p>
+
+<p><h3>BACKEND 
+DEVELOPMENT</h3>
+Backend logic and stability are the cornerstones of a great product. We equip our dedicated teams with some of the best software engineers to make sure that the backend of your app is robust, stable, secure, and easy to maintain.</p>
+
+				</td>
+				<td>
+<p><h3>	WHAT WE DO</h3>
+Our mission is to create data-driven solutions designed especially for the needs of each of our new customer leveraging the best practices we have learned working with other business domains.</p>
+
+<p><h3>ERP 
+DEVELOPMENT</h3>
+As an enterprise software development company we have the most extensive experience in the development of the performance and reliance oriented enterprise resource planning systems to help you manage the whole pipeline of the business activities and resources with maximum efficiency.</p>
+
+<p><h3>CRM 
+DEVELOPMENT</h3>
+We understand the importance of having great communication with the clients and partners. In order to achieve that, we build CRM software that helps our customers to improve communication efficiency, distribute workload, increase ROI, retain existing customers and attract new.</p>
+
+
+<p><h3>BIG DATA & 
+ANALYTICS</h3>
+We shape billions of unstructured records into informative and visualized insights which help our customers make the data-driven decisions and actions. Existek creates end-to-end Big Data solutions designed with the needs of the asset-intensive businesses in mind to provide you with the competitive advantage.</p>
+
+
+				</td>
+				</tr>
+
+			</table>
+		</a>
+		</div>
+	</section>
+
+
+	<section>
+		<a id="howwework">
+		<div class="cm">
+			How We Work
+We believe that software product outsourcing is easy if you have a reliable and experienced partner at your side.
+
+Our mission is to support you with our expert services at any stage of the project
+		</div>
+		</a>
+	</section>
+	
+	<section>
+		<a id="contact">
+		
+<section>
+	<a id="contact">
+	<div class="di">
+	
+	<h2>Contact me</h2>
+	<p>	  <img src="wp.png" width="150" height="150" ><li><a href="#aboutme">+91 9176052342</a></li>
+		  <img src="gmail.png" width="150" height="150" ><li><a href="https://accounts.google.com/ServiceLogin/identifier?service=mail&passive=true&rm=false&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&ss=1&scc=1&ltmpl=default&ltmplcache=2&emr=1&osid=1&flowName=GlifWebSignIn&flowEntry=AddSession">kumaranss2000@gmail.com</a></li>	
+		  
+	</div>
+	</a>
+</section>
+
+	
+</body>
+</html>

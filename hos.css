@@ -1,0 +1,25 @@
+body{
+	background-image:url("h.jpg");
+	background-size:cover;
+}
+.row{
+	font-style:italic;
+	font-weight:bold;
+	font-size:180%;
+	color:blue;
+	text-align:center;
+	border:5px solid purple;
+}
+.cm{
+	font-weight:bold;
+	color:black;
+}
+img{
+	float:left;
+}
+.di{
+	font-style:italic;
+	font-weight:bold;
+	color:blue;
+	
+}
